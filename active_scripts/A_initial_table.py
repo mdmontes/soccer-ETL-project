@@ -1,7 +1,7 @@
 import pprint
-from active_scripts.A1_get_request_playerdata import get_request
-from active_scripts.C_parse_player_data import parse_data
-from active_scripts.D1_create_table import create_table
+from active_scripts.C_get_request_playerdata import get_request
+from active_scripts.D_parse_player_data import parse_data
+from active_scripts.E_create_table import create_table
 
 from dotenv import load_dotenv
 import os

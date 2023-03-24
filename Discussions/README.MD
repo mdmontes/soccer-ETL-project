@@ -1,3 +1,4 @@
+Original Project Notes
 Soccer API Project Doc
 Goals:
 •	To learn how to successfully scrape data related to soccer players from through the https://api-football-v1.p.rapidapi.com API.

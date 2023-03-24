@@ -1,7 +1,7 @@
 import time
 import pprint
-from active_scripts.A1_get_request_playerdata import get_request
-from active_scripts.D3_complete_table import complete_table
+from active_scripts.C_get_request_playerdata import get_request
+from active_scripts.F_complete_table import complete_table
 
 from dotenv import load_dotenv
 import os

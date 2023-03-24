@@ -1,6 +1,6 @@
-from active_scripts.A1_get_request_playerdata import get_request
-from active_scripts.D2_populate_table import populate_table
-from active_scripts.C_parse_player_data import parse_data
+from active_scripts.C_get_request_playerdata import get_request
+from active_scripts.G_populate_table import populate_table
+from active_scripts.D_parse_player_data import parse_data
 import time
 
 def complete_table(table_names,response_current_page, response_page_max, results_per_page,url, headers, query_list, database_list):

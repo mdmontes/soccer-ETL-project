@@ -1,7 +1,7 @@
 import mysql.connector
 import pandas as pd
-from active_scripts.A1_get_request_playerdata import get_request
-from active_scripts.C_parse_player_data import parse_data
+from active_scripts.C_get_request_playerdata import get_request
+from active_scripts.D_parse_player_data import parse_data
 from active_scripts.main import url, headers, query_list, database_list
 
 # def populate_table(table_names,headers,player_data,database):

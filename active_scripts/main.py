@@ -1,5 +1,4 @@
 import requests
-import pprint
 import time
 
 from active_scripts.A_initial_table import initial_table
@@ -9,9 +8,6 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-
-p_print = pprint.pprint
-
 
 url = "https://api-football-v1.p.rapidapi.com/v3/players/seasons"
 
@@ -23,15 +19,13 @@ headers = {
 response = requests.request("GET", url, headers=headers)
 
 seasons = response.json()
-p_print(seasons['response'])
 
 season_years = []
 
 for years in seasons['response']:
     season_years.append(int(years))
 
-print(len(season_years))
-print(season_years[37])
+# print(len(season_years))
 
 initial_table(season_years[37])
 
