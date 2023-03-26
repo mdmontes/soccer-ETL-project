@@ -105,7 +105,7 @@ likewise, users can use both pandas dataframes, and the library matplotlibs to v
 4. Additional EDA (exploratory data analysis) with data scientists and other data professionals to create insights, both in terms of the data, as well as for the engine 
 5. Data hygiene, specifically for seasons and statistics missing data
 
-# Datasource
+# Data Source
 
 All data was sourced from the Rapi Football API :https://rapidapi.com/api-sports/api/api-football
 
