@@ -22,11 +22,11 @@ def get_season_data(season):
     "X-RapidAPI-Host":os.getenv('X-RapidAPI-Host')
     }
 
-  intial_league_query = 39
-  initial_season_query = season
-  initial_page_query = 1
+  league_query = 39
+  season_query = season
+  page_query = 1
 
-  query_list = [intial_league_query, initial_season_query, initial_page_query]
+  query_list = [league_query, season_query, page_query]
 
   host = os.getenv('host')
   user = os.getenv('user')
@@ -54,9 +54,9 @@ def get_season_data(season):
     return None
 
   # 2. call 'parse_data' to obtain column headers and initial player data
-  # initial_data = parse_data(response_data, 0)
-  # diminfo_column_headers = initial_data[0]
-  # stat_column_headers = initial_data[1]
+  # data = parse_data(response_data, 0)
+  # diminfo_column_headers = data[0]
+  # stat_column_headers = data[1]
 
   # p_print(diminfo_column_headers)
   # p_print(stat_column_headers)

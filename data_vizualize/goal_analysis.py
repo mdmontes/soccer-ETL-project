@@ -24,4 +24,6 @@ soccer_dataframe = pd.DataFrame(soccer_sql_query, columns=['player_key', 'player
 
 soccer_dataframe[['game_appearences','goals_total','shots_total', 'shots_on', 'goals_assists']] = soccer_dataframe[['game_appearences','goals_total','shots_total', 'shots_on', 'goals_assists']].apply(pd.to_numeric)
 
-positions_df = soccer_dataframe[soccer_dataframe['player_id'] == '296']
+positions_df = soccer_dataframe[soccer_dataframe['game_position'] == 'Attacker']
+
+print(positions_df)
