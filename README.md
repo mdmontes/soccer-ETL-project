@@ -100,7 +100,7 @@ likewise, users can use both pandas dataframes, and the library matplotlibs to v
 # Improvements for next release:
 
 1. Automation of database creation to prevent users from commenting the command `get_database()` manually in order to prevent calling the command twice
-2. Integration of additional leagues from the Rapi Football API. Currently, the engine is configured to request data for the English Premier League Only. Users can manually change the "league id" parameter to request data from different leagues managed by the Rapi Football API 
+2. Integration of additional leagues from the Rapi Football API. Currently, the engine is configured to request data for the English Premier League only. Users can manually change the "league id" parameter to request data from different leagues managed by the Rapi Football API 
 3. Migration of engine into Apache Airflow. Learning process currently ongoing
 4. Additional EDA (exploratory data analysis) with data scientists and other data professionals to create insights, both in terms of the data, as well as for the engine 
 5. Data hygiene, specifically for seasons and statistics missing data
